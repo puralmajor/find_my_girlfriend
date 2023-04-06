@@ -7,7 +7,7 @@ import os
 
 API_URL = 'https://kapi.kakao.com/v1/vision/face/detect'
 # 아래 My Kakao api key, 본인 계정의 API 키로 변경해서 사용하세요.
-MYAPP_KEY = '787c9c903704b935e98e732d47d2fbf2'
+MYAPP_KEY = '####'
 
 def detect_face(filename):
     headers = {'Authorization': 'KakaoAK {}'.format(MYAPP_KEY)}
